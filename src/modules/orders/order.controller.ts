@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import { OrderService } from './order.service';
 
 import { Product } from '../products/product.model';
+import OrderValidationSchema from './order.validation';
 
 // order create
 const orderCreate = async (req: Request, res: Response, next: NextFunction) => {
