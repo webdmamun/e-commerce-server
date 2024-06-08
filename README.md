@@ -39,22 +39,9 @@ This is a simple e-commerce backend project built using Node.js and Express.js. 
    npm install
    ```
 
-3. **Set up environment variables**
-
-   Create a `.env` file in the root directory and add your MongoDB connection string:
-   ```
-   MONGODB_URI=mongodb://localhost:27017/ecommerce
-   ```
-
-4. **Run the server**
+3. **Run the server**
    ```bash
    npm start
    ```
 
    The server will start on `http://localhost:8000`.
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to contribute to this project by submitting issues or pull requests. Happy coding!
