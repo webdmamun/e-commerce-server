@@ -41,7 +41,7 @@ This is a simple e-commerce backend project built using Node.js and Express.js. 
 
 3. **Run the server**
    ```bash
-   npm start
+   npm run start:dev
    ```
 
    The server will start on `http://localhost:8000`.
