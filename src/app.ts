@@ -1,6 +1,8 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
 import globalErrorHandler from './app/middlwares/globalErrorHandler';
+import { ProductRouter } from './modules/products/product.routes';
+import { OrderRouter } from './modules/orders/order.routes';
 
 const app = express();
 // json parser
